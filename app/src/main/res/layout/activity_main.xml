@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lalaland.notifytest.MainActivity"
+    android:orientation="vertical"
+
+
+
+    >
+
+
+
+
+    <Button
+        android:id="@+id/general_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send General Notification"
+        android:layout_marginTop="62dp"
+        android:layout_below="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <Button
+        android:id="@+id/dengue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Dengue Alert"
+        android:layout_marginTop="62dp"
+        android:layout_below="@+id/general_button"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <Button
+        android:id="@+id/malaria_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Malaria Alert"
+        android:layout_marginTop="62dp"
+        android:layout_below="@+id/dengue_button"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <Button
+        android:id="@+id/zika_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Zika Alert"
+        android:layout_marginTop="62dp"
+        android:layout_below="@+id/malaria_button"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+
+
+</LinearLayout>
